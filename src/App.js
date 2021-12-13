@@ -1,9 +1,15 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Header from './components/header/Header';
+import Navbar from './components/navbar/Navbar';
+import Cards from './components/cards/Cards';
 
 const App = () => {
   return (
-    <Navbar />
+    <div className='App'>
+      < Navbar />
+      < Header />
+      < Cards />
+    </div >
   );
 };
 
